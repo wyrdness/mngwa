@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/mngwa",
     "maintainers": [
       {
@@ -18,720 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "mngwa",
     "name": "Mngwa",
-    "aliases": [
-      {
-        "name": "Nunda",
-        "language": "Swahili",
-        "region": "East Africa",
-        "meaning": "Strange one"
-      },
-      {
-        "name": "Gray Ghost",
-        "region": "Tanzania",
-        "meaning": "English descriptor for gray coloration"
-      },
-      {
-        "name": "Giant Gray Cat",
-        "region": "Tanzania"
-      }
-    ],
+    "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Mystery Felid",
+    "subcategory": "| Description | Date | Status |",
     "tags": [
-      "feline",
-      "quadrupedal",
-      "carnivore",
-      "savanna-dwelling",
-      "east-africa",
-      "tanzania",
-      "nocturnal",
-      "large-predator",
-      "mystery-cat"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "A large, aggressive mystery cat reported in Tanzania, described as larger than a lion with distinctive gray or brindled fur. Known for documented attacks on humans in the early 20th century.",
-      "full": "The Mngwa is a cryptid feline reported primarily in the coastal regions of Tanzania, East Africa. Described as significantly larger than a lion, with gray, slate-colored, or brindled fur, the Mngwa has been featured in local accounts for generations and gained international attention through documented human attacks in the 1920s-1940s. The creature's name comes from the Swahili word meaning 'the strange one.' Belgian cryptozoologist Bernard Heuvelmans extensively researched the Mngwa, considering it one of the more plausible mystery cats due to consistent eyewitness descriptions and documented incidents. Theories range from an unknown species of large cat to melanistic or leucistic variations of known species, to surviving populations of prehistoric felids."
+      "summary": "The **Mngwa** (also known as **Nunda**) is a cryptid feline reported primarily in the coastal regions of Tanzania, East Africa.",
+      "full": "The **Mngwa** (also known as **Nunda**) is a cryptid feline reported primarily in the coastal regions of Tanzania, East Africa. Described as significantly larger than a lion with distinctive gray, slate-colored, or brindled fur, the Mngwa has been featured in local accounts for generations and gained international attention through documented human attacks in the 1920s-1940s. The creature represents one of the most intriguing African mystery cats, with credible documentation from colonial administrators, including British district officer William Hitchens, who extensively investigated a series of fatal attacks in the Lindi region in 1938. Belgian cryptozoologist Bernard Heuvelmans considered the Mngwa one of the more plausible mystery cats due to consistent eyewitness descriptions and documented incidents. Unlike many cryptids that rely primarily on folklore, the Mngwa has the distinction of documented fatal attacks on humans, physical evidence in the form of tracks and kills, and investigation by credible witnesses including government officials and professional hunters familiar with all known African wildlife."
     },
     "etymology": {
-      "origin": "Derived from Swahili, the name 'Mngwa' refers to 'the strange one' or 'the different one,' reflecting the creature's unusual appearance compared to known African predators.",
-      "meaning": "The strange one; an unusual or different creature",
-      "first_use": "Traditional Swahili usage, documented in colonial-era accounts from early 1900s"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Mystery Felid",
-      "subtype": "Large Cat",
-      "variant": "East African"
+      "type": "| Description | Date | Status |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "nandi-bear",
-        "name": "Nandi Bear",
-        "relationship": "regional",
-        "description": "East African mystery carnivore, different morphology"
-      },
-      {
-        "id": "marozi",
-        "name": "Marozi",
-        "relationship": "similar",
-        "description": "Spotted lion reported in Kenya"
-      },
-      {
-        "id": "black-panther",
-        "name": "Mystery Black Panthers",
-        "relationship": "similar",
-        "description": "Global reports of anomalous large black cats"
-      },
-      {
-        "id": "tatzelwurm",
-        "name": "Tatzelwurm",
-        "relationship": "comparable",
-        "description": "European mystery predator"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "length": {
-        "min": 2.0,
-        "max": 3.0,
-        "unit": "meters",
-        "notes": "Body length excluding tail; larger than lion",
-        "confidence": "medium"
-      },
-      "shoulder_height": {
-        "min": 1.2,
-        "max": 1.5,
-        "unit": "meters",
-        "confidence": "low"
-      },
-      "weight": {
-        "min": 200,
-        "max": 350,
-        "unit": "kilograms",
-        "notes": "Estimated heavier than lion",
-        "confidence": "low"
-      },
-      "coloration": [
-        "slate gray",
-        "dark gray",
-        "brindled gray-brown",
-        "brownish-gray"
-      ],
-      "features": [
-        {
-          "feature": "Fur pattern",
-          "description": "Distinctive gray or brindled coloration, unlike any known African cat",
-          "frequency": "always"
-        },
-        {
-          "feature": "Size",
-          "description": "Consistently described as larger than a lion, massive build",
-          "frequency": "always"
-        },
-        {
-          "feature": "Claws",
-          "description": "Large, powerful claws reported in attack accounts",
-          "frequency": "common"
-        },
-        {
-          "feature": "Teeth",
-          "description": "Massive fangs, described as saber-like by some witnesses",
-          "frequency": "occasional"
-        },
-        {
-          "feature": "Tail",
-          "description": "Long, thick tail",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Quadrupedal large felid with robust, muscular build. Body plan similar to lion or leopard but significantly larger. Gray coloration unique among known African predators."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Extreme aggression",
-        "description": "Multiple documented unprovoked attacks on humans",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Powerful predation",
-        "description": "Capable of killing humans and large prey animals",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Stealth",
-        "description": "Ability to approach victims undetected",
-        "frequency": "common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Nocturnal hunting",
-        "description": "Most attacks occur at night",
-        "frequency": "common",
-        "evidence_level": "documented"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "aggressive",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "coastal scrubland",
-        "savanna",
-        "bushland",
-        "forest edges"
-      ],
-      "diet": "Carnivorous; documented attacks on humans, livestock, and wild game",
-      "patterns": [
-        "Aggressive toward humans",
-        "Solitary hunter",
-        "Nocturnal activity",
-        "Territorial behavior"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Primarily coastal Tanzania, with reports concentrated in the regions around Lindi, Kilwa, and Rufiji. Some reports extend to southern Kenya and northern Mozambique.",
-      "continents": ["Africa"],
-      "countries": ["Tanzania", "Kenya (southern)", "Mozambique (northern)"],
-      "regions": [
-        "Lindi Region, Tanzania",
-        "Rufiji District, Tanzania",
-        "Kilwa Region, Tanzania",
-        "Coastal scrublands"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Lindi Region",
-        "location": {
-          "description": "Coastal region of southeastern Tanzania",
-          "country": "Tanzania",
-          "region": "Lindi",
-          "coordinates": {
-            "latitude": -9.9965,
-            "longitude": 39.7169
-          }
-        },
-        "sighting_count": 50,
-        "peak_period": "1920s-1950s",
-        "notes": "Site of most documented attacks, including William Hitchens' investigations"
-      },
-      {
-        "name": "Rufiji District",
-        "location": {
-          "description": "Coastal region with dense bush",
-          "country": "Tanzania",
-          "region": "Pwani",
-          "coordinates": {
-            "latitude": -7.9697,
-            "longitude": 38.7744
-          }
-        },
-        "sighting_count": 30,
-        "peak_period": "1930s-1960s",
-        "notes": "Multiple reports from colonial administrators and hunters"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Pre-colonial",
+        "date": "Unknown",
         "circa": true,
-        "source": "Indigenous oral traditions of coastal Swahili and other ethnic groups"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "1920s-1950s",
-          "description": "Peak of documented attacks and colonial-era investigations"
-        },
-        {
-          "period": "1990s-2000s",
-          "description": "Renewed interest through cryptozoological research"
-        }
-      ],
-      "seasonal_patterns": "No clear seasonal pattern documented"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "The Mngwa features in the oral traditions of coastal Tanzanian peoples, particularly Swahili-speaking communities. Indigenous accounts describe it as a dangerous predator to be avoided.",
-      "earliest_accounts": "Traditional stories predating European colonization. First documented European encounter in early 1900s.",
-      "folklore_connections": "Connected to broader East African traditions of mystery predators including the Nandi Bear and Marozi."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-1900",
-        "event": "Indigenous oral traditions",
-        "significance": "Mngwa established in local folklore as dangerous predator",
-        "source": "Oral traditions collected by colonial administrators"
-      },
-      {
-        "date": "1922",
-        "event": "First documented European encounter",
-        "significance": "Colonial administrator reports gray cat larger than lion",
-        "source": "District records, Tanzania"
-      },
-      {
-        "date": "1938",
-        "event": "William Hitchens investigation",
-        "significance": "British administrator William Hitchens documents multiple fatal attacks in Lindi region",
-        "source": "Hitchens' published accounts in Discovery magazine"
-      },
-      {
-        "date": "1938-12",
-        "event": "Reported killing of Mngwa",
-        "significance": "Hunter claims to have shot large gray cat, but body not recovered",
-        "source": "Hitchens correspondence"
-      },
-      {
-        "date": "1940s",
-        "event": "Multiple attack reports",
-        "significance": "Series of documented attacks on humans and livestock",
-        "source": "Colonial government records"
-      },
-      {
-        "date": "1950s-1960s",
-        "event": "Post-colonial decline in reports",
-        "significance": "Reports decrease as Tanzania gains independence, administrative records less systematic",
-        "source": "Various sources"
-      },
-      {
-        "date": "1955",
-        "event": "Bernard Heuvelmans research",
-        "significance": "Influential cryptozoologist includes Mngwa in systematic study of mystery cats",
-        "source": "Heuvelmans, B. 'On the Track of Unknown Animals'"
-      },
-      {
-        "date": "1990s-present",
-        "event": "Sporadic modern reports",
-        "significance": "Occasional sightings continue to be reported by locals and researchers",
-        "source": "Contemporary cryptozoology databases"
-      }
-    ],
-    "modern_era": "Modern reports of the Mngwa are sporadic. The creature remains part of local folklore in coastal Tanzania. Some cryptozoologists continue to investigate, though systematic research is limited by the remote nature of the habitat and political/economic factors in the region."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 100,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 85,
-      "debunked": 5,
-      "date_range": {
-        "earliest": "Pre-colonial",
-        "latest": "2020s"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "mngwa-sighting-1938-hitchens",
-        "name": "William Hitchens Investigation",
-        "date": {
-          "value": "1938",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Lindi Region, coastal Tanzania",
-          "country": "Tanzania",
-          "region": "Lindi",
-          "coordinates": {
-            "latitude": -9.9965,
-            "longitude": 39.7169,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 10,
-          "types": ["Colonial administrator", "Local villagers", "Hunters"],
-          "credibility_factors": ["Government official", "Multiple independent witnesses", "Physical evidence"]
-        },
-        "description": "British district officer William Hitchens investigated a series of fatal attacks in the Lindi region. Multiple villagers reported being attacked by an enormous gray cat. Hitchens documented at least three human fatalities and numerous livestock kills. Witnesses consistently described a cat larger than a lion with distinctive gray or brindled fur. Tracks were found and documented. One hunter claimed to have shot the creature in December 1938, describing it as 'lion-sized with gray fur,' but the body was not recovered.",
-        "conditions": {
-          "weather": "Tropical coastal climate",
-          "visibility": "Most attacks at night, some daylight sightings",
-          "time_of_day": "Various, primarily nocturnal",
-          "duration": "Investigation lasted several months"
-        },
-        "evidence": [
-          "Multiple consistent witness accounts",
-          "Physical evidence of attacks (injuries, kills)",
-          "Track casts",
-          "Published documentation in Discovery magazine",
-          "Official colonial administrative records"
-        ],
-        "credibility": {
-          "rating": "high",
-          "factors": [
-            "Investigated by government official",
-            "Multiple independent witnesses",
-            "Physical evidence documented",
-            "Consistent descriptions",
-            "Published in reputable venue"
-          ],
-          "notes": "Hitchens' investigation represents the best-documented series of Mngwa encounters. His credentials as a district officer lend credibility, though no body was ever recovered for examination."
-        },
-        "sources": [
-          "Hitchens, W. (1937-1939). Various articles in Discovery magazine",
-          "Heuvelmans, B. (1955). On the Track of Unknown Animals"
-        ],
-        "featured": true
-      },
-      {
-        "id": "mngwa-sighting-1922-administrator",
-        "name": "Colonial Administrator Encounter",
-        "date": {
-          "value": "1922",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Rufiji District, Tanzania",
-          "country": "Tanzania",
-          "region": "Pwani",
-          "coordinates": {
-            "latitude": -7.9697,
-            "longitude": 38.7744,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 2,
-          "types": ["Colonial administrator", "Native guide"],
-          "credibility_factors": ["Educated observer", "Experienced in local wildlife"]
-        },
-        "description": "A British colonial administrator and his guide encountered a large gray cat while on safari. The administrator, familiar with all known African wildlife, stated the animal was larger than any lion he had seen, with unusual gray coloration. The creature did not attack but watched them from approximately 50 meters before disappearing into thick bush.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Good daylight",
-          "time_of_day": "Late afternoon",
-          "duration": "Several minutes"
-        },
-        "evidence": [
-          "Written report in district records",
-          "Corroborating testimony from guide"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Credible witness with wildlife experience",
-            "Contemporary documentation",
-            "No physical evidence",
-            "Brief observation"
-          ],
-          "notes": "Early documented sighting by European observer. Witness was experienced with African wildlife, lending weight to observation."
-        },
-        "sources": [
-          "District administrative records, Tanzania",
-          "Referenced in Heuvelmans' work"
-        ],
-        "featured": true
-      },
-      {
-        "id": "mngwa-sighting-1947-hunter",
-        "name": "Professional Hunter Encounter",
-        "date": {
-          "value": "1947",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Near Kilwa, Tanzania",
-          "country": "Tanzania",
-          "region": "Lindi",
-          "coordinates": {
-            "latitude": -8.9325,
-            "longitude": 39.5103,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Professional hunter"],
-          "credibility_factors": ["Expert knowledge of African fauna"]
-        },
-        "description": "An experienced professional hunter reported tracking and observing a large cat with gray-brindled fur for several hours. The hunter, who had decades of experience throughout Africa, stated he had never seen anything like it. He described it as 'bigger than the largest lion' with a unique coloration. The animal was extremely wary and eventually disappeared into dense bush before a clear shot could be taken.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Good",
-          "time_of_day": "Morning to midday",
-          "duration": "Several hours tracking"
-        },
-        "evidence": [
-          "Hunter's detailed written account",
-          "Track measurements",
-          "Sketches of coloration pattern"
-        ],
-        "credibility": {
-          "rating": "medium-high",
-          "factors": [
-            "Expert witness with extensive experience",
-            "Detailed observations over extended period",
-            "No photograph or specimen obtained",
-            "Contemporary documentation"
-          ],
-          "notes": "Witness credibility high due to professional experience, but lack of physical evidence limits verification."
-        },
-        "sources": [
-          "Hunter's personal journals",
-          "Referenced in cryptozoological literature"
-        ],
-        "featured": false
-      }
-    ]
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "id": "mngwa-evidence-tracks",
-        "type": "tracks",
-        "name": "Track casts from Hitchens investigation",
-        "date": "1938",
-        "description": "Plaster casts of tracks made by Hitchens showed a large felid, larger than lion tracks, with distinctive pad pattern",
-        "location": "Lindi Region, Tanzania",
-        "status": "lost",
-        "analysis": "Casts were made but have since been lost or destroyed. Described in Hitchens' publications as definitively feline but abnormally large.",
-        "source": "Hitchens' accounts in Discovery magazine"
-      },
-      {
-        "id": "mngwa-evidence-fur",
-        "type": "hair sample",
-        "name": "Alleged fur sample",
-        "date": "1938",
-        "description": "Gray fur samples reportedly collected from attack site",
-        "status": "lost",
-        "analysis": "Samples were collected but never scientifically analyzed; subsequently lost",
-        "source": "Hitchens investigation"
-      },
-      {
-        "id": "mngwa-evidence-kills",
-        "type": "predation evidence",
-        "name": "Kill patterns",
-        "date": "Various 1930s-1940s",
-        "description": "Livestock and human victims showed distinctive kill patterns not matching lion or leopard",
-        "status": "disputed",
-        "analysis": "Colonial records document unusual predation patterns, but without specimens, definitive identification impossible",
-        "source": "Colonial administrative records"
-      }
-    ],
+    "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": [
-      {
-        "id": "mngwa-evidence-witness-consistency",
-        "type": "testimonial pattern",
-        "name": "Consistent witness descriptions",
-        "description": "Independent witnesses across decades consistently describe gray coloration and enormous size",
-        "status": "notable",
-        "analysis": "The consistency of descriptions across time and geography suggests either a real phenomenon or deeply embedded cultural narrative"
-      }
-    ]
+    "trace": []
   },
-
   "theories": {
-    "cryptozoological": [
-      {
-        "name": "Unknown Species",
-        "description": "The Mngwa represents an undiscovered species of large felid endemic to East Africa",
-        "proponents": ["Bernard Heuvelmans", "Karl Shuker"],
-        "evidence_cited": [
-          "Consistent witness descriptions",
-          "Gray coloration unlike known African cats",
-          "Documented attacks with physical evidence",
-          "Remote habitat with unexplored areas"
-        ]
-      },
-      {
-        "name": "Surviving Prehistoric Cat",
-        "description": "A relict population of an extinct prehistoric felid, possibly related to saber-toothed cats or cave lions",
-        "proponents": ["Various cryptozoologists"],
-        "evidence_cited": [
-          "Exceptional size",
-          "Some descriptions mention large fangs",
-          "Africa has other relict fauna"
-        ]
-      },
-      {
-        "name": "Hybrid Animal",
-        "description": "A hybrid between lion and leopard or other large cats, producing unusual characteristics",
-        "proponents": ["Some wildlife biologists"],
-        "evidence_cited": [
-          "Intermediate characteristics",
-          "Rare but documented felid hybridization"
-        ]
-      }
-    ],
-    "scientific": [
-      {
-        "name": "Aberrant Lion",
-        "description": "Unusually large or color-variant lions, possibly leucistic (reduced pigmentation) or with rare gray coloration",
-        "proponents": ["Mainstream zoologists"],
-        "evidence_cited": [
-          "Lion populations show variation",
-          "Genetic mutations can produce unusual coloration",
-          "Size estimates may be exaggerated"
-        ]
-      },
-      {
-        "name": "Melanistic Leopard",
-        "description": "Leopards with unusual coloration patterns, appearing gray in certain light or due to genetic variation",
-        "proponents": ["Skeptical biologists"],
-        "evidence_cited": [
-          "Leopards show considerable color variation",
-          "Size may be overestimated in frightening encounters",
-          "Leopards are common in the region"
-        ]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Misidentification",
-        "description": "Sightings are misidentifications of known animals, particularly lions or leopards seen under poor conditions",
-        "proponents": ["Skeptics"],
-        "evidence_cited": [
-          "No specimen ever obtained",
-          "Known animals can appear unusual in poor light or brief observation",
-          "Size frequently overestimated in frightening situations"
-        ]
-      },
-      {
-        "name": "Cultural Legend",
-        "description": "The Mngwa is primarily a folkloric tradition with some sightings influenced by expectation and cultural belief",
-        "proponents": ["Anthropologists", "Skeptics"],
-        "evidence_cited": [
-          "Strong presence in local folklore",
-          "Reports decrease with modernization",
-          "No physical evidence despite many alleged encounters"
-        ]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Swahili coastal traditions of dangerous bush spirits and creatures",
-        "Local beliefs about forest predators with supernatural powers",
-        "Warning tales told to children about venturing into the bush"
-      ],
-      "stories": [
-        "Tales of the 'Gray Ghost' that kills without warning",
-        "Stories of hunters who pursued the Mngwa and never returned",
-        "Accounts of villages terrorized by the creature"
-      ],
-      "beliefs": "Local communities treat the Mngwa with great respect and fear. Some consider it a spirit creature rather than a purely physical animal. Traditional beliefs often warn against hunting or pursuing the Mngwa."
-    },
-    "indigenous": {
-      "cultures": [
-        "Coastal Swahili communities",
-        "Various Bantu ethnic groups of coastal Tanzania",
-        "Traditional communities in Lindi and Rufiji regions"
-      ],
-      "significance": "The Mngwa occupies a prominent place in the folklore of coastal Tanzania as one of the most dangerous creatures of the bush. It serves as both a real predatory threat in historical accounts and a cautionary symbol in traditional education.",
-      "sensitivity_note": "Researchers should approach local beliefs about the Mngwa with respect. For many communities, this is not merely folklore but part of their lived experience and traditional knowledge."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Heuvelmans, B. (1955). 'On the Track of Unknown Animals' - Influential cryptozoological work featuring extensive Mngwa discussion",
-        "Shuker, K. (1989). 'Mystery Cats of the World' - Comprehensive treatment of Mngwa evidence",
-        "Eberhart, G. (2002). 'Mysterious Creatures: A Guide to Cryptozoology' - Encyclopedia entry"
-      ],
-      "media": [
-        "Featured in various cryptozoology documentaries",
-        "Discussed in mystery animal podcasts and YouTube channels",
-        "Subject of cryptozoology blog posts and articles"
-      ],
-      "academic": [
-        "Occasionally discussed in cryptozoology and folklore studies",
-        "Referenced in works on African mystery animals"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "William Hitchens",
-        "affiliation": "British Colonial Service",
-        "contribution": "Most extensive documentation of Mngwa attacks and sightings in 1930s-1940s",
-        "period": "1930s-1940s"
-      },
-      {
-        "name": "Bernard Heuvelmans",
-        "affiliation": "Independent cryptozoologist",
-        "contribution": "Systematic study and classification of Mngwa reports; considered it one of the more credible mystery cats",
-        "period": "1950s-1980s"
-      },
-      {
-        "name": "Karl Shuker",
-        "affiliation": "Independent cryptozoologist",
-        "contribution": "Comprehensive research on mystery cats including the Mngwa",
-        "period": "1980s-present"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "International Society of Cryptozoology",
-        "focus": "Historical investigation and documentation (defunct)",
-        "active": "1982-1998"
-      },
-      {
-        "name": "Centre for Fortean Zoology",
-        "url": "https://www.cfz.org.uk",
-        "focus": "Ongoing research into mystery animals including African cryptids"
-      }
-    ],
-    "ongoing_studies": "Limited active research due to remote location and political/economic challenges. Occasional expeditions by cryptozoology enthusiasts. Camera trap surveys in Tanzanian reserves occasionally yield unusual footage that warrants investigation."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "heuvelmans-1955",
-      "type": "book",
-      "title": "On the Track of Unknown Animals",
-      "authors": ["Bernard Heuvelmans"],
-      "publication": "Rupert Hart-Davis",
-      "date": "1955",
-      "isbn": "N/A"
-    },
-    {
-      "id": "shuker-1989",
-      "type": "book",
-      "title": "Mystery Cats of the World",
-      "authors": ["Karl Shuker"],
-      "publication": "Robert Hale",
-      "date": "1989",
-      "isbn": "978-0709033769"
-    },
-    {
-      "id": "hitchens-discovery",
-      "type": "article",
-      "title": "Various articles on Mngwa",
-      "authors": ["William Hitchens"],
-      "publication": "Discovery magazine",
-      "date": "1937-1939"
-    },
-    {
-      "id": "eberhart-2002",
-      "type": "book",
-      "title": "Mysterious Creatures: A Guide to Cryptozoology",
-      "authors": ["George M. Eberhart"],
-      "publication": "ABC-CLIO",
-      "date": "2002",
-      "isbn": "978-1576072837"
-    }
-  ]
+  "sources": []
 }
