@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/mngwa",
     "maintainers": [
       {
@@ -16,111 +16,252 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "mngwa",
     "name": "Mngwa",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "| Description | Date | Status |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Nunda", "language": "Swahili", "region": "East Africa", "meaning": "Fierce animal; cruel man; something heavy" },
+      { "name": "Nunda, Eater of People", "language": "Swahili", "region": "Zanzibar / East African coast", "meaning": "Fierce man-eating creature (from the fairy tale collected by Steere, 1870)" },
+      { "name": "Mu-nwga", "language": "Swahili (root form)", "region": "Tanzania", "meaning": "Strange one" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Mystery feline / African big cat cryptid",
+    "tags": [
+      "africa",
+      "tanzania",
+      "zanzibar",
+      "big-cat",
+      "feline",
+      "cryptid",
+      "east-africa",
+      "swahili",
+      "mystery-animal"
+    ],
+    "status": "unverified",
     "description": {
-      "summary": "The **Mngwa** (also known as **Nunda**) is a cryptid feline reported primarily in the coastal regions of Tanzania, East Africa.",
-      "full": "The **Mngwa** (also known as **Nunda**) is a cryptid feline reported primarily in the coastal regions of Tanzania, East Africa. Described as significantly larger than a lion with distinctive gray, slate-colored, or brindled fur, the Mngwa has been featured in local accounts for generations and gained international attention through documented human attacks in the 1920s-1940s. The creature represents one of the most intriguing African mystery cats, with credible documentation from colonial administrators, including British district officer William Hitchens, who extensively investigated a series of fatal attacks in the Lindi region in 1938. Belgian cryptozoologist Bernard Heuvelmans considered the Mngwa one of the more plausible mystery cats due to consistent eyewitness descriptions and documented incidents. Unlike many cryptids that rely primarily on folklore, the Mngwa has the distinction of documented fatal attacks on humans, physical evidence in the form of tracks and kills, and investigation by credible witnesses including government officials and professional hunters familiar with all known African wildlife."
+      "summary": "A large, grey-brindled mystery cat reported from the coastal regions of Tanzania and Zanzibar, East Africa, described as significantly larger than a lion with tabby-like markings and held responsible for a series of human fatalities investigated by British officials in the 1920s.",
+      "full": "The Mngwa (also known as the Nunda) is a cryptid feline from Swahili-speaking East African tradition, reported primarily from the coastal regions of Tanzania and the island of Zanzibar. It is described as a large cat substantially bigger than a lion, with distinctive grey fur patterned in a brindle or tabby-like arrangement similar to a civet's markings. In 1922, William Hitchens, serving as a magistrate in Lindi, Tanzania, investigated a series of attacks in which several local constables were killed or badly injured by a large cat. Grey hair found in the hands of one victim was sent to a laboratory for analysis; the results were inconclusive. A second series of maulings occurred in the Mchinga area in the 1930s. The creature's name Mngwa, meaning 'strange one,' and its alternative name Nunda, meaning 'fierce animal,' appear independently in East African oral tradition and in a Swahili fairy tale ('The Nunda, Eater of People') collected by Edward Steere in Zanzibar in 1870. Cryptozoologist Bernard Heuvelmans considered the Mngwa one of the more credible African mystery cats due to the consistency of descriptions and the official investigation of attacks. Skeptical researchers, including Karl Shuker, suggest the attacks were committed by a known large cat (lion or leopard), with the grey fur evidence potentially planted by local witchdoctors (mjobo). No specimen has been captured or confirmed."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Swahili mu-nwga; the alternative name Nunda derives from a Swahili word meaning 'fierce animal,' 'cruel man,' or 'something heavy.' Both names appear in Swahili oral tradition and were recorded in colonial-era accounts.",
+      "meaning": "Strange one (Mngwa); fierce animal (Nunda)",
+      "first_use": "1870 — 'The Nunda, Eater of People' collected by Edward Steere in Zanzibar; Mngwa name appears in 1920s colonial accounts"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "| Description | Date | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Mystery feline",
+      "subtype": "African big cat",
+      "variant": "East African coast"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "maltese-tiger", "name": "Maltese Tiger", "relationship": "similar", "description": "Reported blue-grey tiger from China; another mystery big cat with unusual coloration" },
+      { "id": "marozi", "name": "Marozi", "relationship": "similar", "description": "Cryptid spotted lion reported from Kenya; another African mystery feline" },
+      { "id": "bush-lion", "name": "Nunda (fairy tale creature)", "relationship": "related", "description": "Swahili fairy tale creature 'Nunda, Eater of People' (Steere 1870) sharing the name" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["grey", "brindled grey", "tabby-patterned with spots near the eyes"],
+      "features": [
+        { "feature": "Large size", "description": "Described as significantly larger than a lion, with size estimates placing it closer to a donkey or medium-sized horse in bulk", "frequency": "always" },
+        { "feature": "Grey brindled coat", "description": "Fur described as grey with brindle or tabby-like patterning; some accounts describe civet-like markings with spots near the eyes", "frequency": "always" },
+        { "feature": "Feline morphology", "description": "Consistent descriptions as a large felid with the general body plan of a big cat", "frequency": "always" }
+      ],
+      "morphology": "A large feline exceeding known African big cats in size, with distinctive grey brindled coloration not matching any confirmed species. Some accounts compare its coat pattern to a tabby cat or civet at larger scale."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Nocturnal predation", "description": "Attacks reported exclusively at night or in low-light conditions", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Evasion of detection", "description": "Despite causing multiple fatalities, no specimen has been captured or confirmed; the creature consistently evades official investigation", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["East African coastal forest", "savanna near villages", "Tanzania coastal regions"],
+      "diet": "Reported as a man-eater responsible for multiple human fatalities in the 1922 and 1930s incidents",
+      "patterns": [
+        "Attacks humans in coastal Tanzanian villages, particularly at night",
+        "Leaves tracks larger than those of known big cats",
+        "Grey hair found at attack sites — one tuft sent for analysis in 1922, results inconclusive"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reported from the coastal regions of mainland Tanzania and the island of Zanzibar; tradition associated with Swahili-speaking peoples of the East African coast.",
+      "continents": ["Africa"],
+      "countries": ["Tanzania"],
+      "regions": [
+        "Lindi region, coastal Tanzania",
+        "Mchinga area, coastal Tanzania",
+        "Zanzibar (folklore tradition)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Lindi district, Tanzania",
+        "location": {
+          "description": "Lindi district, coastal southern Tanzania; site of William Hitchens's 1922 investigation",
+          "country": "Tanzania",
+          "region": "Lindi Region",
+          "coordinates": { "latitude": -10.0, "longitude": 40.0 }
+        },
+        "notes": "William Hitchens investigated multiple constable deaths attributed to a large grey cat here in 1922"
+      },
+      {
+        "name": "Mchinga area, Tanzania",
+        "location": {
+          "description": "Mchinga area, coastal Tanzania; site of 1930s mauling incidents",
+          "country": "Tanzania",
+          "region": "Lindi Region"
+        },
+        "notes": "A second series of attacks attributed to the Mngwa occurred here in the 1930s"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1870-01-01",
+        "circa": false,
+        "source": "Steere, E. (1870), Swahili Tales — 'The Nunda, Eater of People' collected in Zanzibar"
+      },
+      "peak_activity_periods": [
+        { "period": "1922", "description": "William Hitchens investigated multiple constable deaths in Lindi attributed to a large grey cat" },
+        { "period": "1930s", "description": "Second series of maulings in Mchinga area investigated by British officials" }
+      ],
+      "seasonal_patterns": "No documented seasonal pattern."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Mngwa/Nunda tradition is embedded in Swahili-speaking East African culture. The Nunda fairy tale (collected 1870) suggests the creature was part of oral tradition well before colonial-era investigations. East African oral tradition describes the Mngwa as a dangerous nocturnal cat distinct from lions, leopards, and cheetahs.",
+      "earliest_accounts": "1870: Edward Steere collects 'The Nunda, Eater of People' in Zanzibar for his Swahili Tales. 1901: Andrew Lang publishes an abridged version in The Violet Fairy Book. 1922: William Hitchens, magistrate of Lindi, Tanzania, investigates a series of constable deaths attributed to a large grey cat.",
+      "folklore_connections": "The Mngwa belongs to a global tradition of mystery big cats reported from areas where known felid species are present — including the Maltese Tiger (China) and the Marozi spotted lion (Kenya). In East African tradition it is distinct from the supernatural werecat (see Swahili werecat traditions)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1870-01-01", "event": "Edward Steere collects 'The Nunda, Eater of People' in Zanzibar, published in Swahili Tales", "significance": "Earliest documented written record of the Nunda name and tradition", "source": "Steere, E. (1870), Swahili Tales" },
+      { "date": "1901-01-01", "event": "Andrew Lang publishes an abridged version of 'The Nunda, Eater of People' in The Violet Fairy Book", "significance": "Brings the Nunda to Western readers", "source": "Lang, A. (1901), The Violet Fairy Book" },
+      { "date": "1922-01-01", "event": "William Hitchens, magistrate of Lindi, Tanzania, investigates multiple constable deaths attributed to a large grey cat; grey hair found in a victim's hands sent for lab analysis (results inconclusive)", "significance": "Primary modern documentation of Mngwa attacks; first official investigation", "source": "Hitchens, W. (1922); cited in cryptozoological literature" },
+      { "date": "1930-01-01", "event": "Second series of maulings attributed to the Mngwa in the Mchinga area of Tanzania", "significance": "Follow-up incident confirming the ongoing tradition", "source": "Colonial records; cited in cryptozoological literature" }
+    ],
+    "modern_era": "The Mngwa remains one of the more discussed African cryptid felines in cryptozoological literature. Bernard Heuvelmans included it in his survey of mystery animals. Karl Shuker has written skeptical assessments, suggesting the 1922 attacks were committed by a known large cat with grey fur evidence potentially staged. No specimen has been collected or confirmed. The absence of any verifiable physical evidence leaves the Mngwa firmly in the unverified category."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 3,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 3,
+      "debunked": 0,
+      "date_range": { "earliest": "1922", "latest": "1930" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "mngwa-sighting-1922-lindi",
+        "name": "Lindi constable attacks (Hitchens investigation)",
+        "date": { "value": "1922-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Lindi district, coastal southern Tanzania",
+          "country": "Tanzania",
+          "region": "Lindi Region"
+        },
+        "witnesses": { "count": 0, "types": ["Local constables (victims); William Hitchens (investigator)"], "credibility_factors": ["Investigated by official British magistrate", "Grey hair found on victim sent for lab analysis"] },
+        "description": "William Hitchens, serving as magistrate of Lindi, investigated a series of attacks in which several local constables were killed or badly mauled by a large cat. Grey-colored strands of hair were found in the hands of one dead victim, suggesting the man had grappled with the animal. Hitchens sent a tuft of grey hair for laboratory analysis; the results were inconclusive — the hair could not be matched to any known species but was not definitively identified as novel.",
+        "conditions": { "time_of_day": "Nocturnal", "visibility": "Night; poor visibility" },
+        "evidence": ["Grey hair found in victim's hands (lab analysis inconclusive)", "Large unidentified cat tracks"],
+        "credibility": { "rating": "medium", "factors": ["Investigated by official British magistrate", "Physical hair evidence analyzed", "Multiple victims"], "notes": "Karl Shuker suggests the attacks could have been by a known large cat; the grey hair evidence may have been placed by local witchdoctors (mjobo) as part of a hoax." },
+        "sources": ["Hitchens, W. (1922); cited in Heuvelmans, B. (1955)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "mngwa-evidence-grey-hair",
+        "type": "hair sample",
+        "name": "Grey hair found in Lindi victim's hands (1922)",
+        "date": "1922",
+        "description": "A tuft of grey animal hair found in the hands of a constable killed in Lindi, Tanzania. Hitchens sent the sample to a laboratory for analysis.",
+        "location": "Lindi district, Tanzania",
+        "status": "unverified",
+        "analysis": "Laboratory results were inconclusive — the hair could not be matched to a known species but was not identified as novel. No further analysis has been conducted on the original sample, which is no longer available.",
+        "source": "Hitchens, W. (1922)"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Undescribed large felid",
+        "description": "The Mngwa represents an undescribed species of large African cat with unusual grey brindled coloration. Bernard Heuvelmans considered this possibility credible given the consistency of descriptions and the investigation of actual attacks.",
+        "proponents": ["Bernard Heuvelmans"],
+        "evidence_cited": ["Consistent grey coloration in independent accounts", "Official investigation of attacks by British officials", "Tracks reportedly larger than known big cats", "Inconclusive hair analysis"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Known large cat with staged evidence",
+        "description": "The attacks were committed by a known large cat (lion, leopard, or large caracal), with the grey coloration arising from unusual coat color variation or a mangy animal. The grey hair evidence in the 1922 case may have been placed by local witchdoctors (mjobo) to protect a human killer or to enhance the supernatural character of the incident.",
+        "proponents": ["Karl Shuker"],
+        "evidence_cited": ["Known large cats can have unusual coat variations", "No specimen ever captured or killed", "Grey fur from various common species could match description", "Witchdoctor staging of evidence as plausible explanation"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Swahili oral tradition of the Nunda as a man-eating creature of great size",
+        "East African coastal folklore distinguishing the Mngwa from known big cats as a 'strange one'"
+      ],
+      "stories": [
+        "The Nunda, Eater of People — Swahili fairy tale collected by Steere (1870): a small cat grows to enormous size after being fed by a sultan, eventually eating people before being killed by the sultan's son"
+      ],
+      "beliefs": "In Swahili coastal tradition, the Mngwa/Nunda is understood as a genuinely different and dangerous creature distinct from lions and leopards. Local communities in the Lindi region maintained specific fear of the creature during the 1920s incident period."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "On the Track of Unknown Animals — Bernard Heuvelmans (1955); includes the Mngwa",
+        "Mystery Cats of the World — Karl Shuker (1989)"
+      ],
       "film_tv": [],
       "games": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Edward Steere", "affiliation": "British missionary and linguist", "contribution": "Collected 'The Nunda, Eater of People' in Zanzibar (1870), the earliest written documentation of the Nunda tradition", "period": "1870" },
+      { "name": "William Hitchens", "affiliation": "British colonial administrator, Lindi magistrate", "contribution": "Conducted the primary modern investigation of Mngwa attacks in Lindi (1922); collected grey hair evidence for laboratory analysis", "period": "1922" },
+      { "name": "Bernard Heuvelmans", "affiliation": "Belgian cryptozoologist", "contribution": "Included the Mngwa in On the Track of Unknown Animals (1955); argued for the possibility of a genuine undescribed felid", "period": "1955" },
+      { "name": "Karl Shuker", "affiliation": "British cryptozoologist", "contribution": "Wrote skeptical assessment of the Mngwa evidence; proposed alternative explanations in Mystery Cats of the World (1989)", "period": "1989" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No systematic field investigation of the Mngwa is currently documented. The creature's status as one of Africa's more credible mystery cats continues to attract attention in cryptozoological literature."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "steere-1870", "type": "book", "title": "Swahili Tales", "authors": ["Edward Steere"], "publication": "Church Missionary Society", "date": "1870" },
+    { "id": "lang-1901", "type": "book", "title": "The Violet Fairy Book", "authors": ["Andrew Lang"], "publication": "Longmans, Green and Co.", "date": "1901" },
+    { "id": "heuvelmans-1955", "type": "book", "title": "Sur la piste des bêtes ignorées (On the Track of Unknown Animals)", "authors": ["Bernard Heuvelmans"], "publication": "Plon (Paris)", "date": "1955" },
+    { "id": "shuker-1989", "type": "book", "title": "Mystery Cats of the World", "authors": ["Karl Shuker"], "publication": "Robert Hale", "date": "1989" },
+    { "id": "wikipedia-nunda", "type": "website", "title": "The Nunda, Eater of People", "url": "https://en.wikipedia.org/wiki/The_Nunda,_Eater_of_People", "accessed": "2026-05-08" }
+  ]
 }
